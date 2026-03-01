@@ -9,3 +9,4 @@ document.addEventListener('DOMContentLoaded',function(){
     const id = setInterval(()=>{ if(cur>=target){ clearInterval(id); } else { cur += Math.max(0.5, target/40); rl.style.setProperty('--progress', cur + '%'); } },20);
   }
 });
+

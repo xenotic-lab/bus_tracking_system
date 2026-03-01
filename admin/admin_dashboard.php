@@ -18,6 +18,7 @@ $trips=$conn->query('SELECT t.*, b.bus_name FROM trips t LEFT JOIN buses b ON t.
                 <h1>Bus_tracking_system - Admin</h1>
                 <div class='header-actions'>
                     <a class='btn' href='add_bus.php'>Add Bus</a>
+                    <a class='btn' href='report.php'>Report</a>
                     <a class='btn btn-ghost' href='logout.php'>Logout</a>
                 </div></header>
                 <section class='card'>
